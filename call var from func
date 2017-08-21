@@ -1,0 +1,7 @@
+from random import randint
+def roll_dice():    
+   roll_dice.dice1 = randint(1,6)    
+   roll_dice.dice2 = randint(1,6)        
+roll_dice()
+print roll_dice.dice1
+print roll_dice.dice2
